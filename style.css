@@ -4,6 +4,24 @@ nav{
     left: 0;
     height: 70px;
     width: 100%;
-    background-color:#5f6e99;
+    background-color:#bdc15c;
     z-index: 100;
+}
+a{
+    text-decoration: none;
+    margin:15px;
+    color:aliceblue;
+    transform: scale(1);
+    transition: 0.2s;
+    float:left;
+}
+.search{
+    margin:15px;
+}
+
+a:hover {
+border-radius: 28px;
+ background-color:#b7bb5b;
+ color:black;
+ transform: scale(1.3);
 }
