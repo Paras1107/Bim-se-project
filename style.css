@@ -36,23 +36,19 @@ background-color: bisque;
     position:absolute;
     top:50%;
     left:42%;
-    color: white;
+    color: black;
   font-size: 16px;
-  padding: 12px 24px;
+  padding:12px 24px;
   border: none;
   border-color:aliceblue;
   cursor: pointer;
   border-radius: 15px;
+  opacity: 40%;
 }
 .search-bar:hover {
- background-color: black;
-}
-.btn{
-    position:absolute;
-    top:50;
-    left:49%;
-}
-
+    background-color: white;
+    opacity: 80%;
+   }
 .middle-bar{
 background-color:rgb(222, 204, 180);
 }
