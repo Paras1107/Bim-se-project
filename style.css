@@ -17,6 +17,7 @@ a{
 }
 .search{
     margin:15px;
+    float:right;
 }
 
 a:hover {
