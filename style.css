@@ -15,9 +15,11 @@ a{
     transition: 0.2s;
     float:left;
 }
-.search{
-    margin:15px;
-    float:right;
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 a:hover {
