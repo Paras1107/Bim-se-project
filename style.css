@@ -47,6 +47,7 @@ background-color: bisque;
   cursor: pointer;
   border-radius: 15px;
   opacity: 40%;
+  
 }
 .search-bar:hover {
     background-color: white;
