@@ -10,7 +10,7 @@ nav{
     background-color:#bdc15c;
     z-index: 100;
 }
-a{
+.navi-links.a{
     text-decoration: none;
     margin:15px;
     color:aliceblue;
@@ -25,7 +25,7 @@ a{
     width: 100%;
 }
 
-a:hover {
+.navi-links.a:hover {
 border-radius: 28px;
  background-color:#b7bb5b;
  color:black;
