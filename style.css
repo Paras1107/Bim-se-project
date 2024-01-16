@@ -42,6 +42,15 @@ background-color: bisque;
     color:rgb(175, 190, 196);
     font-size: 33px;
 }
+.search{
+float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+}
+/*
 .search-bar{
     position:absolute;
     top:50%;
@@ -57,17 +66,13 @@ background-color: bisque;
   
 }
 .search-icon{
-    z-index: 1;
-    top:50%;
-    left:52%;
-    font: size 1.5em;;
-    color: black; 
-    font-size: 16px;
+    
 }
 .search-bar:hover {
     background-color: white;
     opacity: 80%;
 }
+*/
 .middle-bar{
 background-color:rgb(222, 204, 180);
 }
