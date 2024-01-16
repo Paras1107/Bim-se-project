@@ -1,3 +1,6 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 nav{
     position: fixed;
     top: 0;
@@ -19,7 +22,7 @@ a{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 100%;
 }
 
 a:hover {
@@ -32,7 +35,24 @@ border-radius: 28px;
 .frontal-bar{
 background-color: bisque;
 }
-
+.search-bar{
+    position:absolute;
+    top:50%;
+    left:42%;
+    color: black;
+  font-size: 16px;
+  padding:12px 24px;
+  border: none;
+  border-color:aliceblue;
+  cursor: pointer;
+  border-radius: 15px;
+  opacity: 40%;
+  
+}
+.search-bar:hover {
+    background-color: white;
+    opacity: 80%;
+   }
 .middle-bar{
 background-color:rgb(222, 204, 180);
 }
