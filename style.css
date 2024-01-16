@@ -117,7 +117,11 @@ background-color:rgb(222, 204, 180);
 }
 
 .bottom-bar{
-background-color: rgb(4, 4, 72); 
+background-color: #907a62; 
 color:white;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.row{
+    color:black;
 }
