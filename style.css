@@ -10,7 +10,7 @@ nav{
     background-color:#bdc15c;
     z-index: 100;
 }
-.navi-links.a{
+.navi-bar a{
     text-decoration: none;
     margin:15px;
     color:aliceblue;
@@ -25,7 +25,7 @@ nav{
     width: 100%;
 }
 
-.navi-links.a:hover {
+.navi-bar a:hover {
 border-radius: 28px;
  background-color:#b7bb5b;
  color:black;
@@ -35,13 +35,12 @@ border-radius: 28px;
 .frontal-bar{
 background-color: bisque;
 }
-
-.title{
+.searchbar-legend{
     position:absolute;
     top:40%;
-    left:25%;
+    left:35%;
     color:rgb(175, 190, 196);
-    font-size: 40px;
+    font-size: 33px;
 }
 .search-bar{
     position:absolute;
@@ -57,21 +56,24 @@ background-color: bisque;
   opacity: 40%;
   
 }
-.search-button{
-    position:absolute;
+.search-icon{
+    z-index: 1;
     top:50%;
     left:52%;
+    font: size 1.5em;;
     color: black; 
     font-size: 16px;
 }
 .search-bar:hover {
     background-color: white;
     opacity: 80%;
-   }
+}
 .middle-bar{
 background-color:rgb(222, 204, 180);
 }
 
 .bottom-bar{
-background-color: aquamarine; 
+background-color: rgb(4, 4, 72); 
+color:white;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
