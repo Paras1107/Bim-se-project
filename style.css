@@ -31,10 +31,10 @@ background-color: bisque;
 .searchbar-legend{
     position:absolute;
     top:40%;
-    left:35%;
+    left:30%;
     color:rgb(175, 190, 196);
     font-size: 33px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial;
 }
 .center{
     z-index: -1;
@@ -124,4 +124,10 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 .row{
     color:black;
+}
+.social-icon
+{
+    border: 1px solid;
+    width:15px;
+    font-size: xx-large;
 }
