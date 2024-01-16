@@ -35,6 +35,13 @@ border-radius: 28px;
 .frontal-bar{
 background-color: bisque;
 }
+.title{
+    position:absolute;
+    top:40%;
+    left:42%;
+    color:rgb(63, 112, 132);
+    font-size: 40px;
+}
 .search-bar{
     position:absolute;
     top:50%;
