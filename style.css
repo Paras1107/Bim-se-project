@@ -38,8 +38,8 @@ background-color: bisque;
 .title{
     position:absolute;
     top:40%;
-    left:42%;
-    color:rgb(63, 112, 132);
+    left:30%;
+    color:rgb(95, 127, 140);
     font-size: 40px;
 }
 .search-bar{
