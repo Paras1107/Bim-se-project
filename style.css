@@ -35,11 +35,12 @@ border-radius: 28px;
 .frontal-bar{
 background-color: bisque;
 }
+
 .title{
     position:absolute;
     top:40%;
-    left:42%;
-    color:rgb(63, 112, 132);
+    left:25%;
+    color:rgb(175, 190, 196);
     font-size: 40px;
 }
 .search-bar{
@@ -55,6 +56,13 @@ background-color: bisque;
   border-radius: 15px;
   opacity: 40%;
   
+}
+.search-button{
+    position:absolute;
+    top:50%;
+    left:52%;
+    color: black; 
+    font-size: 16px;
 }
 .search-bar:hover {
     background-color: white;
