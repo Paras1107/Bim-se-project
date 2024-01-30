@@ -7,7 +7,7 @@ nav{
     left: 0;
     height: 70px;
     width: 100%;
-    background-color:#bdc15c;
+    background-color:#0d3014b7;
     z-index: 100;
 }
 .navi-bar a{
@@ -26,7 +26,7 @@ border-radius: 28px;
 }
 
 .frontal-bar{
-background-color: bisque;
+background-color: #133d1cb7;
 }
 .searchbar-legend{
     position:absolute;
@@ -220,3 +220,32 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     width:15px;
     font-size: xx-large;
 }
+  
+  /* Style the hotels section */
+  #hotels {
+    padding: 2rem;
+  }
+  
+  #hotels h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  #hotels ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #hotels li {
+    width: 31%;
+    margin-bottom: 2rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  #hotels img {
+    margin-bottom: 1rem;
+  }
