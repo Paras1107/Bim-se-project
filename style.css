@@ -112,18 +112,107 @@ background-color: bisque;
     opacity: 80%;
 }
 */
-.middle-bar{
-background-color:rgb(222, 204, 180);
+
+.package-title{
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ width: 100%;
 }
+.middle-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 0 0px;
+  }
+  
+  .-frame {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: calc(100% - 40px); /* Adjustment here */
+    display: flex;
+  }
+  
+  .-option {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 0 20px;
+    box-sizing: border-box;
+    width: 100%;
+    column-gap: 30px;
+  }
+  
+  .package-tier {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: column;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .package-tier:hover {
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+  }
+  
+  .price {
+    font-size: 36px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 10px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: #777;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    display: block;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #3e8e41;
+  }
+
+
 
 .bottom-bar{
-background-color: #907a62; 
+background-color: #bdb8b3; 
 color:white;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 .row{
     color:black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    flex-direction: row;
+    height: auto;
+    width: 100%;
 }
 .social-icon
 {
